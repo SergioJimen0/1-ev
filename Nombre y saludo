@@ -1,0 +1,7 @@
+# programa de iniciacion
+# me pregunta el nombre y responde saludandome
+print ("como te llamas?")
+nombre=input()
+print ("hola sergio que guapo eres")
+afirmacion=input()
+print ("me das tu insta?")
