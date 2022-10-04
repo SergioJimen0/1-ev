@@ -1,0 +1,6 @@
+def tabla_1():
+    ntabla=input("dime el numero de la tabla: ")
+    for cont in range(1,11):
+        print(str(ntabla)+"*"+str(cont)+"= "+str(int(ntabla)*cont))
+    
+tabla_1()
