@@ -1,0 +1,11 @@
+def detectar_primos():
+    num=int(print("dime un numero entero: "))
+    print(num)
+    for count in range(num-1,0,-1):
+        resto= num%cont
+        if (resto==0)
+    
+    
+    
+    
+detectar_primos()
