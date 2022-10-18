@@ -1,0 +1,7 @@
+dinero=int(input("Ingresa una cantidad de dinero: "))
+print("Cantidad de dinero ingresada:",dinero)
+dinero2=int(input("Retira la cantidad deseada: "))
+if dinero2==5 or dinero2==10 or dinero2==20 or dinero2==20 or dinero2==50 or dinero2==100 or dinero2==500:
+    print("Cantidad actual en la cuenta:", dinero - dinero2)
+else:
+    print("no puedes retirar esa cantidad")
