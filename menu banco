@@ -11,6 +11,12 @@ def ingresar_dinero(saldo):
     saldo=saldo+dinero
     print("tienes: "+str(saldo))
     return(saldo)
+    
+def sacar_dinero(saldo):
+    dinero=int(input("retire una cantidad: "))
+    saldo=(saldo-dinero)
+    print("tienes: "+str(saldo))
+    
 
     
 
@@ -24,7 +30,7 @@ def principal():
             saldo=ingresar_dinero(saldo)
             seguir=True
         if (respuesta==2):
-            sacar_dinero()
+            sacar_dinero(saldo)
             seguir=True
         if (respuesta==3):
             print("MUCHAS GRACIAS Y HASTA PRONTO")
