@@ -1,0 +1,14 @@
+def dni():
+    a=True
+    while a==True:
+        letras="TRWAGMYFPDXBNJZSQVHLCKE"
+        numero=int(input("escribe un numero para tu dni: "))
+        letra=input("dame la letra de tu dni")
+        resto=numero%23
+        if(resto*23==letra[resto]):
+            print("altoke")
+            a=False
+        else:
+            print("bobo o k: ")
+            a=True
+dni()
