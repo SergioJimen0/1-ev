@@ -1,0 +1,12 @@
+def palabras():
+    a=True
+    while a==True:
+        palabra=input("dime una palabra malparido: ")
+        if(palabra.islower() or palabra.isupper()):
+            print("incumple el criterio de tener mayus y minus")
+            a=True
+        else:
+            print("si cumple el criterio de tener mayus y minus")
+            a=True
+    
+palabras()
