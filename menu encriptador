@@ -1,25 +1,24 @@
-print("***********************")
-print("******ENCRIPTADOR******")
-print("***********************")
-print("1. encriptar")
-print("2. desencriptar")
-
 def menu1():
+    print("***********************")
+    print("******ENCRIPTADOR******")
+    print("***********************")
+    print("1. encriptar")
+    print("2. desencriptar")
     respuesta=int(input("que deseas hacer: "))
     if (respuesta==1):
-        seguir=True
-        while(seguir==True):
+        
             entrada="abcdefghijklmnopqrstivwxyz"
-            salida="dcbajwnenwdiueroimowiuwcki"
+            salida="zyxwvitsrqponmlkjihgfedcda"
             cambio=str.maketrans(entrada,salida)
             texto=input("escribe un texto: ")
             print(texto.translate(cambio))
+            menu1()
     if (respuesta==2):
-        seguir=True
-        while(seguir==True):
+        
+            entrada="zyxwvitsrqponmlkjihgfedcba"
             salida="abcdefghijklmnopqrstivwxyz"
-            entrada="zxywvitsrqponmlkjihgfedcba"
-            cambio=str.maketrans(entrada,salida)
+            cambio=str.maketrans(salida,entrada)
             texto=input("escribe un texto: ")
             print(texto.translate(cambio))
+            menu1()
 menu1()
