@@ -1,0 +1,11 @@
+def calculadora():
+    
+    a=int(input("introduzca un valor para a: "))
+    b=int(input("introduzca un valor para b: "))
+    print("s=",(a+b))
+    print("r=",(a-b))
+    print("p=",(a*b))
+    print("d=",(a%b))
+    
+    
+calculadora()
